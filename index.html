@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Pizza</title>
+  </head>
+  <body>
+    <header>
+      <h1>Worlds Best Pizza</h1>
+      <h3>Try a slice for free!</h3>
+    </header>
+
+    <main>
+      <section>
+        <h2>Place Order</h2>
+        <form class="" action="place-order.php" method="post">
+          <h4>Delivery Method</h4>
+          <input type="radio" name="radio" value="delivery" /> Delivery<br />
+          <input type="radio" name="radio" value="collect" /> Collect<br />
+
+
+          <h4>Address</h4>
+          <!-- use placeholder instead of 'value' if you want the text to stay in the box until typing begins-->
+          <input type="text" name="address1" placeholder="Address Line 1" class="lg-input" /><br />
+          <input type="text" name="address2" placeholder="Address Line 2" class="lg-input" /><br />
+
+          <input type="text" name="city" placeholder="City" class="sm-input" />
+          <input type="text" name="state" placeholder="State" class="sm-input" /><br />
+          <input type="text" name="zip" placeholder="Zip Code" class="sm-input" />
+          <br />
+          <br />
+
+          <h4>Size</h4>
+          <select class="" name="size">
+            <option value="12"">12" - £13.99</option>
+            <option value="16"">16" - £16.99</option>
+            <option value="18"">18" - £19.99</option>
+            <option value="72"">72" - £149.99</option>
+
+          </select>
+
+
+          <h4>Ingredients</h4>
+          <input name="ingerdient" type="checkbox" value="pepperoni" /> Pepperoni<br />
+          <input name="ingerdient" type="checkbox" value="salami" /> Salami<br />
+          <input name="ingerdient" type="checkbox" value="extra_cheese" /> Extra Cheese<br />
+          <input name="ingerdient" type="checkbox" value="spicy_mince" /> Spicy Mince<br />
+          <input name="ingerdient" type="checkbox" value="tuna" /> Tuna<br />
+          <input name="ingerdient" type="checkbox" value="olives" /> Olives<br />
+          <input name="ingerdient" type="checkbox" value="bacon" /> Bacon<br />
+
+          <br /><br />
+          <button type="submit" name="button">Place Order</button>
+
+
+
+
+
+        </form>
+      </section>
+
+      <footer>
+        <center>&copy; 2017<br />
+          <a href="#">Terms of service</a>
+        </center>
+      </footer>
+    </main>
+  </body>
+</html>
